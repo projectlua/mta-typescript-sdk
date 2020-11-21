@@ -1,3 +1,6 @@
+import * as ts from "typescript";
+import * as lua from "../LuaAST";
+
 type Var = object;
 type Player = object;
 type Ped = object;
