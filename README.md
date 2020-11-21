@@ -4,15 +4,9 @@
         <p>TypeScript.lua</p>
         <a href="https://github.com/TypeScriptToLua/TypeScriptToLua/actions"><img alt="CI status" src="https://github.com/TypeScriptToLua/TypeScriptToLua/workflows/CI/badge.svg" /></a>
         <a href="https://codecov.io/gh/TypeScriptToLua/TypeScriptToLua"><img alt="Coverage" src="https://img.shields.io/codecov/c/gh/TypeScriptToLua/TypeScriptToLua.svg?logo=codecov" /></a>
-        <a href="https://discord.gg/G8bT5MJp8f"><img alt="Chat with us!" src="https://img.shields.io/discord/515854149821267971.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
+        <a href="https://discord.gg/G8bT5MJp8f"><img alt="Chat with us!" src="https://img.shields.io/discord/779485978393968661.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
     </h1>
-    <a href="https://typescripttolua.github.io/" target="_blank">Documentation</a>
-    |
-    <a href="https://typescripttolua.github.io/play/" target="_blank">Try Online</a>
-    |
-    <a href="https://github.com/TypeScriptToLua/TypeScriptToLua/blob/master/CHANGELOG.md">Changelog</a>
-    |
-    <a href="https://github.com/TypeScriptToLua/TypeScriptToLua/blob/master/CONTRIBUTING.md">Contribution guidelines</a>
+    <a href="#" target="_blank">Documentation</a>
 </div>
 
 ---
@@ -29,10 +23,10 @@ Large projects written in Lua can become hard to maintain and make it easy to ma
 
 ## Getting Started
 
-To install TypeScriptToLua add the `typescript-to-lua` npm package:
+To install TypeScriptToLua add the `mta-typescript-sdk` npm package:
 
 ```bash
-$ npm install -D typescript-to-lua
+$ npm install -D mta-typescript-sdk
 ```
 
 This package includes the `tstl` command line application, which can be used similarly to `tsc`:
@@ -41,4 +35,4 @@ This package includes the `tstl` command line application, which can be used sim
 $ npx tstl
 ```
 
-For more information, check out [Getting Started](https://typescripttolua.github.io/docs/getting-started) in our documentation.
+For more information, check out [Wiki](#) in our documentation.
