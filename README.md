@@ -1,10 +1,10 @@
 <div align="center">
     <img src="logo-hq.png?raw=true" alt="TypeScriptToLua" width="256" />
     <h1>
-        <p>TypeScriptToLua</p>
+        <p>TypeScript.lua</p>
         <a href="https://github.com/TypeScriptToLua/TypeScriptToLua/actions"><img alt="CI status" src="https://github.com/TypeScriptToLua/TypeScriptToLua/workflows/CI/badge.svg" /></a>
         <a href="https://codecov.io/gh/TypeScriptToLua/TypeScriptToLua"><img alt="Coverage" src="https://img.shields.io/codecov/c/gh/TypeScriptToLua/TypeScriptToLua.svg?logo=codecov" /></a>
-        <a href="https://discord.gg/BWAq58Y"><img alt="Chat with us!" src="https://img.shields.io/discord/515854149821267971.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
+        <a href="https://discord.gg/G8bT5MJp8f"><img alt="Chat with us!" src="https://img.shields.io/discord/515854149821267971.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
     </h1>
     <a href="https://typescripttolua.github.io/" target="_blank">Documentation</a>
     |

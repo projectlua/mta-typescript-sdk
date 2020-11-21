@@ -1,8 +1,8 @@
 {
-    "name": "typescript-to-lua",
-    "version": "0.36.0",
+    "name": "mta-typescript-sdk",
+    "version": "0.1.1",
     "description": "A generic TypeScript to Lua transpiler. Write your code in TypeScript and publish Lua!",
-    "repository": "https://github.com/TypeScriptToLua/TypeScriptToLua",
+    "repository": "https://github.com/projectlua/mta-typescript-sdk",
     "license": "MIT",
     "keywords": [
         "typescript",
@@ -30,7 +30,7 @@
         "postversion": "git push && git push --tags"
     },
     "bin": {
-        "tstl": "./dist/tstl.js"
+        "tstl": "dist/tstl.js"
     },
     "engines": {
         "node": ">=12.13.0"
