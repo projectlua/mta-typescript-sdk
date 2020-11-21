@@ -46,8 +46,6 @@ type Font = object;
 type element = object;
 type table = object;
 
-declare const exports: table;
-
 declare const resource: element;
 
 declare const resourceRoot: element;
