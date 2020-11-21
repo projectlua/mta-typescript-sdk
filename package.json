@@ -1,6 +1,6 @@
 {
     "name": "mta-typescript-sdk",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "description": "A generic TypeScript to Lua transpiler. Write your code in TypeScript and publish Lua!",
     "repository": "https://github.com/projectlua/mta-typescript-sdk",
     "license": "MIT",
@@ -13,7 +13,10 @@
     "files": [
         "dist/**/*.js",
         "dist/**/*.lua",
-        "dist/**/*.ts"
+        "dist/**/*.ts",
+        "src/**/*.js",
+        "src/**/*.lua",
+        "src/**/*.ts"
     ],
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
