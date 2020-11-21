@@ -2,7 +2,6 @@
     <img src="logo-hq.png?raw=true" alt="mta-typescript-sdk" width="256" />
     <h1>
         <p>TypeScript.lua</p>
-        <a href="https://github.com/projectlua/mta-typescript-sdk/actions"><img alt="CI status" src="https://github.com/projectlua/mta-typescript-sdk/workflows/CI/badge.svg" /></a>
         <a href="https://discord.gg/G8bT5MJp8f"><img alt="Chat with us!" src="https://img.shields.io/discord/779485978393968661.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
     </h1>
     <a href="#" target="_blank">Documentation</a>
