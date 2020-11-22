@@ -2,7 +2,6 @@ declare function type( value:any ): string;
 declare function error( value:string, level?:number ): never;
 
 declare interface Coroutine { }
-
 declare namespace coroutine {
   function yield( value:any ): any;
   function create( arg:any, ...args:any[] ): Coroutine;
@@ -23,10 +22,6 @@ declare interface PromiseConstructor {
 }
 
 declare const Promise: PromiseConstructor;
-
-
-
-
 
 
 function __TS__Async<TResult>(    f: ( ...args:any[] ) => TResult  ): ( ...args: any[] ) => Promise<TResult>

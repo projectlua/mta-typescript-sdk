@@ -24,9 +24,6 @@ declare interface PromiseConstructor {
 
 declare const Promise: PromiseConstructor;
 
-
-
-
 function __TS__Await<T>( value: Promise<T> ) : T {
   if( type(value) === "table" && value.next ) {
     let s   = false;
