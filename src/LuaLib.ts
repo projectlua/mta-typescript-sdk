@@ -17,6 +17,8 @@ export enum LuaLibFeature {
     ArrayReduceRight = "ArrayReduceRight",
     ArrayReverse = "ArrayReverse",
     ArrayShift = "ArrayShift",
+    Async = "Async",
+    Await = "Await",
     ArrayUnshift = "ArrayUnshift",
     ArraySort = "ArraySort",
     ArraySlice = "ArraySlice",

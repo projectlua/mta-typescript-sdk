@@ -27,6 +27,11 @@ export enum SyntaxKind {
     BreakStatement,
     ExpressionStatement,
 
+    // Async
+    AwaitKeyword,
+    AsyncKeyword,
+    AwaitExpression,
+
     // Expression
     StringLiteral,
     NumericLiteral,
@@ -434,6 +439,21 @@ export interface LabelStatement extends Statement {
 
 export function isLabelStatement(node: Node): node is LabelStatement {
     return node.kind === SyntaxKind.LabelStatement;
+}
+
+export interface AwaitExpression extends Expression {
+    kind: SyntaxKind.AwaitExpression;
+    expression: UnaryExpression;
+}
+
+export function isAwaitExpression(node: Node): node is AwaitExpression {
+  return node.kind === SyntaxKind.AwaitExpression;
+}
+
+export function createAwaitExpression(expression: Expression): AwaitExpression {
+  const expr = createNode(SyntaxKind.AwaitExpression ) as AwaitExpression;
+  setParent(expression, expr);
+  return expr;
 }
 
 export function createLabelStatement(name: string, tsOriginal?: ts.Node): LabelStatement {
