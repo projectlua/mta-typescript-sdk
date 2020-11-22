@@ -30,6 +30,10 @@ export const luaKeywords: ReadonlySet<string> = new Set([
     "while",
 ]);
 
+export const translateKeywords = new Map<string, string>([
+    [ "then", "__TS__then", ],
+    ]);
+
 const luaBuiltins: ReadonlySet<string> = new Set([
     "_G",
     "assert",
