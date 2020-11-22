@@ -452,7 +452,7 @@ export function isAwaitExpression(node: Node): node is AwaitExpression {
 
 export function createAwaitExpression(expression: Expression): AwaitExpression {
   const expr = createNode(SyntaxKind.AwaitExpression ) as AwaitExpression;
-  setParent(expression, expr);
+
   return expr;
 }
 
