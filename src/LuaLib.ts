@@ -19,6 +19,8 @@ export enum LuaLibFeature {
     ArrayShift = "ArrayShift",
     Async = "Async",
     Await = "Await",
+    ClassIndex = "ClassIndex",
+    ClassNewIndex = "ClassNewIndex",
     ArrayUnshift = "ArrayUnshift",
     ArraySort = "ArraySort",
     ArraySlice = "ArraySlice",
